@@ -10,7 +10,7 @@ This document details a controlled malware detection test using one of EICAR tes
 
 ---
 
-##Detection flow
+## Detection flow
 1) Firefox (with FoxyProxy extension enabled - see explanation in footnote) attempts to download Eicar file
 2) Squid forwards the content to c-icap server on the DietPi server for inspection (sniffing)
 3) c-icap decryption passes to ClamAV for malware scanning
@@ -27,7 +27,7 @@ Content was filtered so that the file was intercepted and scanned in transit bef
 ### 1. EICAR Test File Download Attempt
 **Source:** https://www.eicar.org/download-anti-malware-testfile/
 
-![EICAR Download Page](/img/Eicar_Test_Download.png)
+![EICAR Download Page](img/Eicar_Test_Download.png)
 
 The EICAR test file was downloaded from the  EICAR website in TXT format.
 
@@ -38,7 +38,7 @@ The EICAR test file was downloaded from the  EICAR website in TXT format.
 **Detection Method:** Squid Proxy + c-icap + ClamAV Integration 
 **Threat Identified:** Eicar-Test-Signature
 
-![ClamAV Browser Block](/img/Eicar_Test_ClamAV_Browser.png)
+![ClamAV Browser Block](img/Eicar_Test_ClamAV_Browser.png)
 
 **Detection Details:**
 - **Action:** Download blocked to protect device
@@ -53,7 +53,7 @@ The EICAR test file was downloaded from the  EICAR website in TXT format.
 **Log Location:** /var/log/clamav/clamav.log
 **Timestamp:** Mon Jan 26 14:50:39 2026
 
-![ClamAV DietPi Log](/img/Eicar_Test_ClamAV_DietPi_Log.png)
+![ClamAV DietPi Log](img/Eicar_Test_ClamAV_DietPi_Log.png)
 
 ---
 
@@ -62,7 +62,7 @@ The EICAR test file was downloaded from the  EICAR website in TXT format.
 **Rule ID:** 52502  
 **Severity Level:** 8
 
-![Wazuh SIEM Alert](/img/Eicar_Test_Wazuh.png)
+![Wazuh SIEM Alert](img/Eicar_Test_Wazuh.png)
 
 ---
 
@@ -70,7 +70,7 @@ The EICAR test file was downloaded from the  EICAR website in TXT format.
 **Platform:** VirusTotal  
 **File Hash:** 275a021bbfb6489e54d471899f7db9d1663fc695ec2fe2a2c4538aabf651fd0f
 
-![VirusTotal Scan Results](/img/Eicar_Test_VirusTotal.png)
+![VirusTotal Scan Results](img/Eicar_Test_VirusTotal.png)
 
 **Detection Statistics:**
 - **Detection Rate:** 64/68 security vendors
