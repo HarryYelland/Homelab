@@ -6,6 +6,17 @@ This home lab has turned a previously media, file-hosting and game hosting serve
 
 **Primary Goal**: Develop hands-on security skills aligned with SOC and enterprise-level security practices, whilst creating a portfolio-worthy demonstration of enterprise security capabilities.
 
+### What This Lab Is (and Isn’t)
+
+This lab is:
+- A (somewhat) realistic SOC-style security environment
+- Focused on detection, visibility and response
+- Built incrementally with real trade-offs
+
+This lab is not:
+- A penetration testing playground
+- A simulated enterprise network
+
 ## Technology Stack
 
 | Layer | Tool | Purpose |
