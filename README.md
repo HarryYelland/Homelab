@@ -39,6 +39,7 @@ docs/
 │       └── eicar_test.md
 │
 └── misc/
+    └── why_casaos_and_docker.md
     └── why_dietpi_os.md
 ```
 
