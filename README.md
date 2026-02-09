@@ -84,6 +84,7 @@ docs/
 └── misc/
     ├── why_casaos_and_docker.md
     └── why_dietpi_os.md
+    └── why_wazuh_over_splunk.md
 ```
 
 ## Future Enhancements & Considerations
