@@ -32,10 +32,13 @@ docs/
 │   │   └── server_hardening.md
 │   │
 │   └── phase_2_network_filtering/
-│       ├── clamav_icap_malware_detection.md
-│       ├── pi-hole_dns_filtering.md
-│       ├── squid_proxy_https_inspection.md
-│       └── yara_pattern_detection.md
+│   │   ├── clamav_icap_malware_detection.md
+│   │   ├── pi-hole_dns_filtering.md
+│   │   ├── squid_proxy_https_inspection.md
+│   │   └── yara_pattern_detection.md
+│   │
+│   └── phase_3_siem/
+│       └── wazuh_siem.md
 │
 ├── troubleshooting/
 │   └── caddy/
