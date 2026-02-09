@@ -28,37 +28,40 @@ docs/
 │   └── architecture_map.txt
 │
 ├── implementation/
-│   └── phase_1_foundations_and_server_hardening/
+│   ├── phase_1_foundations_and_server_hardening/
 │   │   └── server_hardening.md
 │   │
-│   └── phase_2_network_filtering/
+│   ├── phase_2_network_filtering/
 │   │   ├── clamav_icap_malware_detection.md
 │   │   ├── pi-hole_dns_filtering.md
 │   │   ├── squid_proxy_https_inspection.md
 │   │   └── yara_pattern_detection.md
 │   │
-│   └── phase_3_siem/
-│       └── wazuh_siem.md
+│   ├── phase_3_siem/
+│   │   └── wazuh_siem.md
+│   │
+│   └── phase_4_endpoint_protection
+│       └── wazuh_agent_endpoint_protection.md
 │
 ├── troubleshooting/
-│   └── caddy/
+│   ├── caddy/
 │   │   └── caddy_reverse_proxy_ssl_certificate_configuration.md
 │   │
-│   └── ufw/
+│   ├── ufw/
 │   │   └── network_scanning_detection.md
 │   │
 │   └── wazuh/
 │       └── agent_event_queue_flooding.md
 │
 ├── testing/
-│   └── auth/
+│   ├── auth/
 │   │   └── ssh_test.md
 │   │
 │   └── malware/
 │       └── eicar_test.md
 │
 └── misc/
-    └── why_casaos_and_docker.md
+    ├── why_casaos_and_docker.md
     └── why_dietpi_os.md
 ```
 
