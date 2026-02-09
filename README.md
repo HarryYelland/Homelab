@@ -27,6 +27,7 @@ docs/
 ├── architecture/
 │   └── architecture_map.txt
 │
+│
 ├── implementation/
 │   ├── phase_1_foundations_and_server_hardening/
 │   │   └── server_hardening.md
@@ -40,8 +41,13 @@ docs/
 │   ├── phase_3_siem/
 │   │   └── wazuh_siem.md
 │   │
-│   └── phase_4_endpoint_protection
-│       └── wazuh_agent_endpoint_protection.md
+│   ├── phase_4_endpoint_protection/
+│   │   └── wazuh_agent_endpoint_protection.md
+│   │
+│   └── phase_5_vulnerability_scanning/
+│       ├── lynis_hardening_audits.md
+│       └── openvas_network_vulnerability_scanning.md
+│
 │
 ├── troubleshooting/
 │   ├── caddy/
@@ -53,12 +59,14 @@ docs/
 │   └── wazuh/
 │       └── agent_event_queue_flooding.md
 │
+│
 ├── testing/
 │   ├── auth/
 │   │   └── ssh_test.md
 │   │
 │   └── malware/
 │       └── eicar_test.md
+│
 │
 └── misc/
     ├── why_casaos_and_docker.md
