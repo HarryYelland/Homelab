@@ -30,12 +30,20 @@ docs/
 ├── implementation/
 │
 ├── troubleshooting/
+│   └── caddy/
+│   │   └── caddy_reverse_proxy_ssl_certificate_configuration.md
+│   │
+│   └── ufw/
+│   │   └── network_scanning_detection.md
+│   │
+│   └── wazuh/
+│       └── agent_event_queue_flooding.md
 │
 ├── testing/
-│   └── auth
+│   └── auth/
 │   │   └── ssh_test.md
 │   │
-│   └── malware
+│   └── malware/
 │       └── eicar_test.md
 │
 └── misc/
