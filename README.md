@@ -25,9 +25,17 @@ This home lab has turned a previously media, file-hosting and game hosting serve
 ```
 docs/
 ├── architecture/
-│   └── architecture-map.txt
+│   └── architecture_map.txt
 │
 ├── implementation/
+│   └── phase_1_foundations_and_server_hardening/
+│   │   └── server_hardening.md
+│   │
+│   └── phase_2_network_filtering/
+│       ├── clamav_icap_malware_detection.md
+│       ├── pi-hole_dns_filtering.md
+│       ├── squid_proxy_https_inspection.md
+│       └── yara_pattern_detection.md
 │
 ├── troubleshooting/
 │   └── caddy/
