@@ -57,6 +57,7 @@ docs/
 │   │   └── wazuh_agent_endpoint_protection.md
 │   │
 │   └── phase_5_vulnerability_scanning/
+│       ├── lynis_findings_and_improvements.md
 │       ├── lynis_hardening_audits.md
 │       └── openvas_network_vulnerability_scanning.md
 │
