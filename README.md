@@ -25,7 +25,7 @@ This home lab has turned a previously media, file-hosting and game hosting serve
 ```
 docs/
 ├── architecture/
-│   └── architecture-map.md
+│   └── architecture-map.txt
 │
 ├── implementation/
 │
