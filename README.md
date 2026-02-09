@@ -32,6 +32,11 @@ docs/
 ├── troubleshooting/
 │
 ├── testing/
+│   └── auth
+│   │   └── ssh_test.md
+│   │
+│   └── malware
+│       └── eicar_test.md
 │
 └── misc/
 ```
