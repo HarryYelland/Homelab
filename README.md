@@ -39,6 +39,7 @@ docs/
 │       └── eicar_test.md
 │
 └── misc/
+    └── why_dietpi_os.md
 ```
 
 ## Future Enhancements & Considerations
