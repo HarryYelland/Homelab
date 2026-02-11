@@ -78,8 +78,11 @@ docs/
 │   ├── auth/
 │   │   └── ssh_test.md
 │   │
-│   └── malware/
-│       └── eicar_test.md
+│   ├── malware/
+│   │    └── eicar_test.md
+│   │
+│   └── web_inspection
+│       └── squid_proxy_connectivity_test.md
 │
 │
 └── misc/
