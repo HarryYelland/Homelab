@@ -20,7 +20,7 @@ This document details a controlled invalid credentials test using one SSH to val
 
 ### 1. SSH Invalid Credentials Attempt
 
-![SSH Invalid Attempt](../img/ssh_invalid_credentials.png)
+![SSH Invalid Attempt](../../img/ssh_invalid_credentials.png)
 
 SSH attempts to connect to the DietPi machine using invalid details.
 
@@ -31,7 +31,7 @@ SSH attempts to connect to the DietPi machine using invalid details.
 **Rule ID:** 5710  
 **Severity Level:** 12
 
-![Wazuh SIEM Alert](../img/ssh_invalid_credentials_wazuh.png)
+![Wazuh SIEM Alert](../../img/ssh_invalid_credentials_wazuh.png)
 
 
 ---
