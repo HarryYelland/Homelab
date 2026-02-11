@@ -50,7 +50,7 @@ This lab is not:
 docs/
 ├── architecture/
 │   ├── architecture_map.txt
-│   └── data_flow_diagram.md
+│   ├── data_flow_diagram.md
 │   └── security_stack_overview.md
 │
 │
