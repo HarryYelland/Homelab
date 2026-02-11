@@ -1,4 +1,17 @@
 # Cybersecurity Home Lab
+
+[![SIEM](https://img.shields.io/badge/SIEM-Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white)](https://github.com/yourusername/homelab/wiki/Wazuh)
+[![Firewall](https://img.shields.io/badge/Firewall-UFW-EF5233?style=for-the-badge&logo=ubuntu&logoColor=white)](https://github.com/yourusername/homelab/wiki/UFW)
+[![IPS](https://img.shields.io/badge/IPS-Fail2ban-D32F2F?style=for-the-badge&logo=security&logoColor=white)](https://github.com/yourusername/homelab/wiki/Fail2ban)
+[![DNS Security](https://img.shields.io/badge/DNS%20Security-Pi--hole-96060C?style=for-the-badge&logo=pihole&logoColor=white)](https://github.com/yourusername/homelab/wiki/Pi-hole)
+[![Proxy](https://img.shields.io/badge/Proxy-Squid-000000?style=for-the-badge&logo=squid&logoColor=white)](https://github.com/yourusername/homelab/wiki/Squid)
+[![Antivirus](https://img.shields.io/badge/Antivirus-ClamAV-FF6B35?style=for-the-badge&logo=clamav&logoColor=white)](https://github.com/yourusername/homelab/wiki/ClamAV)
+[![Vuln Scanning](https://img.shields.io/badge/Vuln%20Scanning-OpenVAS-7FBA00?style=for-the-badge&logo=greenbone&logoColor=white)](https://github.com/yourusername/homelab/wiki/OpenVAS)
+[![Hardening](https://img.shields.io/badge/Hardening-Lynis-4B32C3?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/yourusername/homelab/wiki/Lynis)
+[![Platform](https://img.shields.io/badge/Platform-DietPi-A80030?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/yourusername/homelab/wiki/DietPi)
+[![Containers](https://img.shields.io/badge/Containers-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/yourusername/homelab/wiki/Docker)
+[![VPN](https://img.shields.io/badge/VPN-ZeroTier-FFB441?style=for-the-badge&logo=zerotier&logoColor=black)](https://github.com/yourusername/homelab/wiki/ZeroTier)
+
 My Cybersecurity Homelab Documentation &amp; Testing on a single server utilising open-source tools to emulate basic SOC activities (such as security monitoring, threat detection and incident response).
 
 ## Project Overview
