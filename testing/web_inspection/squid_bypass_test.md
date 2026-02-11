@@ -38,3 +38,12 @@ sudo tail -n 50 /var/log/squid/access.log
 ```
 
 No new log entries corresponding to the request were logged, indicating that the request bypassed Squid entirely.
+
+---
+
+## Related MITRE Techniques To This Test:
+
+| Technique | ID | Tactic |
+|------------|-----|--------|
+| Impair Defenses | T1562 | Defense Evasion |
+| Modify Configuration | T1112 | Defense Evasion |
