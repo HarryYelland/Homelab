@@ -35,3 +35,11 @@ This confirms:
 ## Conclusion
 The Squid proxy successfully intercepts and re-signs HTTPS traffic using a trusted local Certificate Authority.
 
+---
+
+## Related MITRE Techniques To This Test:
+
+| Technique | ID | Tactic |
+|------------|-----|--------|
+| Encrypted Channel | T1573 | Command & Control |
+| Web Protocols | T1071.001 | Command & Control |
