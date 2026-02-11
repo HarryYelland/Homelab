@@ -65,3 +65,12 @@ The Squid proxy is therefore successful in intercepting and logging outbound HTT
 Due to the homelab not being 100% online/available (due to running costs etc.), I use the foxyproxy extension to provide quick proxy switching (between squid when the homelab is online and no proxy when offline).
 In a more dedicated environment, the proxy would ideally be configured at the host's system level to avoid potential issues with human-error/bypassing.
 
+
+---
+
+## Related MITRE Techniques To This Test:
+
+| Technique | ID | Tactic |
+|------------|-----|--------|
+| Web Protocols | T1071.001 | Command & Control |
+| Application Layer Protocol | T1071 | Command & Control |
