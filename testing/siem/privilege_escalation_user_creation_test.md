@@ -44,3 +44,13 @@ As per the alert, Wazuh assigned level 8 indicating a high-severity security eve
 ## Conclusion 
 The simulated privileged account creation was accurately detected by Wazuh and provided a high-severity alert as expected.
 This validates the homelab’s ability to detect potential privilege escalation and persistence activity at the host level.
+
+---
+
+## Related MITRE Techniques To This Test
+
+| Technique | ID | Tactic |
+|------------|-----|--------|
+| Create Account | T1136 | Persistence |
+| Valid Accounts | T1078 | Persistence / Privilege Escalation |
+| Account Manipulation | T1098 | Persistence |
