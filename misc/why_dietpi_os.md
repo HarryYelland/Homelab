@@ -1,11 +1,14 @@
 # DietPi on a Dell Optiplex???
 
-This homelab is built on a **Dell Optiplex 7010**, repurposed from a general-use Windows 10 server into a **home security lab** designed to emulate SOC tooling and workflows.
+This homelab is built on a **Dell Optiplex 7010 SFF Compact**, repurposed from a general-use Windows 10 server into a **home security lab** designed to emulate SOC tooling and workflows.
+
+<img src="/img/dell_optiplex.jpeg" width=20% />
+(My Dell Optiplex that the homelab runs on)
 
 ## Context
 **Previous role:**
 - Windows 10  
-- 4 GB DDR3 RAM  
+- 4 GB DDR3 RAM  (Full specs identical to this: https://www.hardware-corner.net/desktop-models/Dell-OptiPlex-7010-SFF/)
 - File hosting, media sharing and game servers
 
 **Current role:**
