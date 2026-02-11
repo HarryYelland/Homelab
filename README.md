@@ -82,6 +82,7 @@ docs/
 │   │    └── eicar_test.md
 │   │
 │   └── web_inspection
+│       ├── squid_bypass_test.md
 │       └── squid_proxy_connectivity_test.md
 │
 │
