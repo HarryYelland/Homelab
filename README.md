@@ -63,17 +63,6 @@ docs/
 │       └── openvas_network_vulnerability_scanning.md
 │
 │
-├── troubleshooting/
-│   ├── caddy/
-│   │   └── caddy_reverse_proxy_ssl_certificate_configuration.md
-│   │
-│   ├── ufw/
-│   │   └── network_scanning_detection.md
-│   │
-│   └── wazuh/
-│       └── agent_event_queue_flooding.md
-│
-│
 ├── testing/
 │   ├── auth/
 │   │   └── ssh_test.md
@@ -88,6 +77,17 @@ docs/
 │       ├── squid_bypass_test.md
 │       ├── squid_proxy_connectivity_test.md
 │       └── squid_ssl_inspection_test.md
+│
+│
+├── troubleshooting/
+│   ├── caddy/
+│   │   └── caddy_reverse_proxy_ssl_certificate_configuration.md
+│   │
+│   ├── ufw/
+│   │   └── network_scanning_detection.md
+│   │
+│   └── wazuh/
+│       └── agent_event_queue_flooding.md
 │
 │
 └── misc/
