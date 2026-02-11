@@ -3,9 +3,7 @@
 ## Overview
 This document details a controlled invalid credentials test using one SSH to validate my DietPi homelab's ability to monitor through syslog and Wazuh SIEM alerting.
 
-**Date:** January 28, 2026
-**Test Objective:** Validate invalid credential detection through SIEM alerting.
-**Status:** ✅ Pass
+**Objective:** Validate invalid credential detection through SIEM alerting.
 
 ---
 
@@ -39,11 +37,17 @@ SSH attempts to connect to the DietPi machine using invalid details.
 ## Detection Performance
 - **Time to Detect:** Immediate (0 seconds)
 
-### Areas for Improvement
-N/A
-
 ---
 
 ## Conclusion
+The SSH Brute Force attack was successfully detected and alerts were created via Wazuh.
 
-This controlled test successfully validated my home lab's SSH invalid login detection on Wazuh.
+---
+
+## Related MITRE Techniques To This Test:
+
+| Technique | ID | Tactic |
+|------------|-----|--------|
+| Valid Accounts | T1078 | Initial Access / Persistence |
+| Brute Force | T1110 | Credential Access |
+| Remote Services | T1021 | Lateral Movement |
