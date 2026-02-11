@@ -81,7 +81,10 @@ docs/
 │   ├── malware/
 │   │    └── eicar_test.md
 │   │
-│   └── web_inspection
+│   ├── siem/
+│   │    └── privilege_escalation_user_creation_test.md
+│   │
+│   └── web_inspection/
 │       ├── squid_bypass_test.md
 │       ├── squid_proxy_connectivity_test.md
 │       └── squid_ssl_inspection_test.md
