@@ -19,6 +19,8 @@ This home lab has turned a previously media, file-hosting and game hosting serve
 
 **Primary Goal**: Develop hands-on security skills aligned with SOC and enterprise-level security practices, whilst creating a portfolio-worthy demonstration of enterprise security capabilities.
 
+<img src="./img/homelab_architecture_map.png" alt="Architecture Map" width=40% />
+
 ### What This Lab Is (and Isn’t)
 
 This lab is:
