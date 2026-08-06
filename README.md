@@ -118,4 +118,4 @@ docs/
 - **Network Traffic Analysis**: Via IDS/IPS deployment
 - **Honeypot**: For attacker profiling
 
-*Last Updated: February 2026*
+*Last Updated: August 2026*
